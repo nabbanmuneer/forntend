@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>React Table Example</title>
+</head>
+
+<body>
+  <style>
+     .table1 {
+      width: fit-content;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+      background-color: bisque;
+    } 
+    tr{
+      border: 5px solid black;   
+    }
+    .inputTop{
+      width: 200px;
+      height: 100%;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      border-top:1px solid black;
+      border-left: 1px;
+    }
+   
+    input{    
+      width: 200px;
+      height: 100%;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      border-top:1px solid black;
+      border-left: 0px;
+    } 
+    .heads{
+      width: 320px;
+      background-color: bisque;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      border-top:0px ;
+      border-left: 0px;
+    }
+    .headtops{
+      width: 320px;
+      text-align: center;
+      border-bottom: 1px solid black;
+      border-right: 0px;
+      border-top:0px ;
+      border-left: 0px;
+    }
+      
+    
+  </style>
+
+  <div class="" id="root">
+
+  </div>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="app.js"></script>
+</body>
+
+</html>
